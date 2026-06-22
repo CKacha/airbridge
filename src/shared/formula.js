@@ -1,4 +1,3 @@
-
 function badRequest(message) {
   const error = new Error("Invalid filterByFormula: " + message)
   error.statusCode = 400
